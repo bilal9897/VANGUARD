@@ -207,7 +207,7 @@ export default function PlateHero() {
           <div ref={slot} aria-hidden className="pointer-events-none absolute inset-x-5 top-[max(40vh,340px)] bottom-[96px] md:inset-x-auto md:right-[clamp(20px,5vw,80px)] md:left-[46%] md:top-[96px] md:bottom-[120px]" />
 
           {/* Copy on paper */}
-          <div ref={copy} className="container-x absolute inset-x-0 top-[96px] md:top-[72px] md:bottom-[120px] md:flex md:items-center">
+          <div ref={copy} className="container-x absolute inset-x-0 top-[56px] md:top-[72px] md:bottom-[120px] md:flex md:items-center">
             <div className="max-w-[40vw] max-md:max-w-none">
               <p data-hero-fade className="ref mb-6">
                 {hero.eyebrow}
