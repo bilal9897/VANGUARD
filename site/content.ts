@@ -18,7 +18,7 @@ export const nav = {
 export const hero = {
   eyebrow: "HOME TOUR",
   title: ["Modern", "Sanctuary"],
-  subtitle: "Take a cinematic tour of our latest residential masterpiece, where natural light and premium materials converge.",
+  text: "Take a cinematic tour of our latest residential masterpiece, where natural light and premium materials converge.",
   buttons: [
     { label: "START TOUR →", href: "#projects", style: "light" as const },
     { label: "VIEW DETAILS", href: "#contact", style: "dark" as const }
